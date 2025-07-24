@@ -2,9 +2,9 @@
 
 ## Objective
 
-In this lab, you will develop an **Microsoft Teams chat content moderation service** using **Azure Logic Apps**. The service will monitor Teams chat messages for inappropriate content and automatically trigger **email notifications** when a policy violation is detected. Optionally, you can enhance the workflow using **Azure Functions** and **Azure Cognitive Services for Language**.
+In this lab, we will develop an **Microsoft Teams chat content moderation service** using **Azure Logic Apps**. The service will monitor Teams chat messages for inappropriate content and automatically trigger **email notifications** when a policy violation is detected. 
 
-By completing this lab, you will demonstrate your ability to orchestrate automated workflows using Azure services and apply content analysis to real-time communication data.
+<img width="1558" height="309" alt="image" src="https://github.com/user-attachments/assets/b9d56e3f-c5d7-4043-8a33-51c6f0ee8707" />
 
 ---
 
@@ -14,13 +14,6 @@ By completing this lab, you will demonstrate your ability to orchestrate automat
 
 Azure Logic Apps is a cloud-based service that allows you to automate workflows and integrate services without writing much code. It is ideal for building real-time systems triggered by services like Microsoft Teams, email, or HTTP endpoints.
 
-### Azure Cognitive Services (Optional)
-
-Azure Cognitive Services for Language can analyze chat messages and identify inappropriate content using AI-powered natural language processing.
-
-### Azure Functions (Optional)
-
-Azure Functions can be used to customize or preprocess messages before they are evaluated by other services.
 
 ---
 
@@ -30,6 +23,7 @@ Azure Functions can be used to customize or preprocess messages before they are 
 
 - Create a **flowchart** that outlines how your moderation system works.
 - Include components like Microsoft Teams trigger, Logic App flow, optional Azure Functions, optional Cognitive Services, and email notifications.
+  
 
 ### 2. Build the Moderation Service
 
