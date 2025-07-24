@@ -56,22 +56,14 @@ Azure Logic Apps is a cloud-based service that allows you to automate workflows 
    <img width="1200" height="514" alt="image" src="https://github.com/user-attachments/assets/181346d7-748d-488e-a2aa-1204474c54b3" />
 
 
-### 5. Document Your Project
 
-Include the following in your documentation:
-- A screenshot or export of your workflow flowchart.
-- Description of your Logic App setup.
-- Optional: details about Azure Functions or Cognitive Services used.
-- Explanation of how you tested the workflow.
-- Challenges you encountered and how you resolved them.
-- Recommendations for future improvement.
 
-### 6. Record a Demo
+
 
 
 
 ---
-## Challenges Encountered
+### 5. Challenges Encountered
 
 - Microsoft Teams trigger only supports certain scopes (e.g., team/channel vs private chats).
 - Cognitive Services misclassification in some cases (false positives).
@@ -80,6 +72,8 @@ Include the following in your documentation:
 
 
 ---
+
+### Demo
 
 
 
