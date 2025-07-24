@@ -73,6 +73,14 @@ Azure Logic Apps is a cloud-based service that allows you to automate workflows 
 
 ---
 
+### 6. Recommendations
+
+- Use **Azure Content Moderator** (deprecated but still functional) for better flagging in future.
+- Extend functionality to store flagged messages in a database for audit.
+- Add sentiment and toxicity scoring in notification email.
+- Secure Logic App endpoints with authentication if HTTP inputs are used.
+
+
 ### Demo
 
 
