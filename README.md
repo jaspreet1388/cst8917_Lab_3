@@ -24,6 +24,8 @@ Azure Logic Apps is a cloud-based service that allows you to automate workflows 
 - Create a **flowchart** that outlines how your moderation system works.
 - Include components like Microsoft Teams trigger, Logic App flow, optional Azure Functions, optional Cognitive Services, and email notifications.
 - <img width="1558" height="309" alt="image" src="https://github.com/user-attachments/assets/d2ee6c68-4f5f-4e91-9286-710a712c0b04" />
+<img width="1470" height="579" alt="image" src="https://github.com/user-attachments/assets/d9ebf131-aa76-4f2c-885d-68c489e7cec1" />
+
 
   
 
@@ -38,9 +40,15 @@ Azure Logic Apps is a cloud-based service that allows you to automate workflows 
 
 ### 4. Test the Workflow
 
+- Workflow setup
+  <img width="1470" height="579" alt="image" src="https://github.com/user-attachments/assets/ced20f31-c315-4605-9cae-3eae76dcdd6e" />
+
+
 - Simulate messages in Microsoft Teams and ensure:
   - Violations are detected correctly.
     <img width="1389" height="514" alt="image" src="https://github.com/user-attachments/assets/26411290-01c0-42bb-b52d-57be332e50bd" />
+    
+    <img width="1200" height="514" alt="image" src="https://github.com/user-attachments/assets/5cd1076c-519c-412c-8d9c-0e1f75c39f16" />
 
   - Email notifications are triggered.
     
@@ -63,13 +71,13 @@ Include the following in your documentation:
 
 
 ---
+## Challenges Encountered
 
-## Deliverables
+- Microsoft Teams trigger only supports certain scopes (e.g., team/channel vs private chats).
+- Cognitive Services misclassification in some cases (false positives).
+- Permissions required to access Teams message data.
+- Delay in Logic App triggering for private messages.
 
-- Your completed Logic App workflow.
-- A screenshot or exported image of your **moderation flowchart**.
-- Your written **report** (as a separate file or included in `README.md`).
-- A demo video uploaded to YouTube, linked in the `README.md`.
 
 ---
 
