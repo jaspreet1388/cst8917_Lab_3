@@ -30,10 +30,6 @@ Azure Logic Apps is a cloud-based service that allows you to automate workflows 
 ### 2. Build the Moderation Service
 
 - Use **Azure Logic Apps** to set up a trigger that listens for new chat messages from **Microsoft Teams**.
-- Optionally integrate:
-  - **Azure Functions** to process or filter messages.
-  - **Azure Cognitive Services** to analyze message content for violations.
-- Ensure that your service reacts in **real time**.
 
 ### 3. Implement the Email Notification Logic
 
@@ -59,10 +55,7 @@ Include the following in your documentation:
 
 ### 6. Record a Demo
 
-- Create a short video (3–5 minutes) demonstrating:
-  - Your Logic App in action.
-  - Explanation of your setup.
-  - Any lessons learned.
+
 
 ---
 
@@ -75,17 +68,6 @@ Include the following in your documentation:
 
 ---
 
-## Submission Instructions
 
-Submit the following via Brightspace:
-
-- Link to your **public GitHub repository** containing:
-  - Logic App definitions
-  - Optional Function or Cognitive Service code
-  - `README.md` with documentation
-  - Your demo video link (if available)
-- Your GitHub repo must be **well-structured and publicly accessible**.
-
-**Deadline**: *Sunday, 20 July 2025*
 
 
