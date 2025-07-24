@@ -40,8 +40,13 @@ Azure Logic Apps is a cloud-based service that allows you to automate workflows 
 
 - Simulate messages in Microsoft Teams and ensure:
   - Violations are detected correctly.
+    <img width="1389" height="514" alt="image" src="https://github.com/user-attachments/assets/26411290-01c0-42bb-b52d-57be332e50bd" />
+
   - Email notifications are triggered.
-  - Optional services (Functions, Cognitive Services) are working correctly.
+    
+
+   <img width="1200" height="514" alt="image" src="https://github.com/user-attachments/assets/181346d7-748d-488e-a2aa-1204474c54b3" />
+
 
 ### 5. Document Your Project
 
